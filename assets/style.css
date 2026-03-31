@@ -57,7 +57,7 @@ nav {
   height: 64px;
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
   background: transparent;
   transition:
     background 0.3s,
@@ -1062,6 +1062,9 @@ footer {
   .feat-grid {
     grid-template-columns: repeat(2, 1fr);
   }
+  .box-footer-copy {
+    text-align: start;
+  }
 }
 
 @media (max-width: 768px) {
@@ -1121,4 +1124,5 @@ footer {
   .section-sub {
     margin-bottom: 36px;
   }
+  
 }
